@@ -1,0 +1,2 @@
+3. How does the code in 2.2 demonstrate polymorphism?
+  Ans: This code shows polymorphism because even though Car, Boat, and Drone are completely separate classes and don't inherit from a common parent class, they all share the same method name move(). The single start_trip() function accepts any of these objects and runs move(), producing a different output depending on which object is passed.
