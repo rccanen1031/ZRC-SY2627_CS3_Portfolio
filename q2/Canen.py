@@ -27,3 +27,10 @@ temp = TempSensor()
 
 ph.get_reading()
 temp.get_reading()
+
+# task 5
+
+try: 
+    my_sensor = Sensor()
+except TypeError as e:
+    print(e).
